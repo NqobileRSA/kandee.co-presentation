@@ -10,6 +10,7 @@ const nextConfig: NextConfig = {
       "cdninstagram.com",
       "flowbite.s3.amazonaws.com",
       "images.pexels.com",
+      "kandeephotography.pixieset.com",
     ],
   },
 };
