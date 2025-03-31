@@ -9,6 +9,7 @@ const PixiesetGallery = () => {
         overflow: "hidden",
         position: "relative",
       }}
+      className={`fixed w-full z-50 bg-[#343E48]/90 backdrop-blur-lg transition-all duration-500`}
     >
       <iframe
         src="https://kandeephotography.pixieset.com/avbob65aliveliveonmetrofm/"

@@ -48,12 +48,12 @@ const LogoScroller = () => {
       />
 
       {/* Section Header - matching the styling of other components */}
-      <div className="relative z-20 px-8 lg:px-24 mb-8">
+      {/* <div className="relative z-20 px-8 lg:px-24 mb-8">
         <div className="text-[#FF852A] text-sm tracking-[0.25em] mb-4 flex items-center">
           <div className="h-px w-12 bg-[#FF852A] mr-4" />
           TRUSTED BY PREMIUM BRANDS
         </div>
-      </div>
+      </div> */}
 
       {/* Gradient Fades for Smooth Transitions */}
       <div className="absolute top-0 left-0 w-full h-32 bg-gradient-to-b from-[#111418] to-transparent z-10" />
@@ -63,12 +63,12 @@ const LogoScroller = () => {
       {clientGroups.map((group, groupIndex) => (
         <div key={group.title} className="relative my-8 z-20">
           {/* Group title */}
-          <div className="px-8 lg:px-24 mb-4">
+          {/* <div className="px-8 lg:px-24 mb-4">
             <p className="text-white/50 text-xs tracking-[0.2em] flex items-center">
               <div className="w-1 h-1 bg-[#FF852A] rounded-full mr-3" />
               {group.title}
             </p>
-          </div>
+          </div> */}
 
           {/* Scrolling logos */}
           <div
@@ -100,11 +100,11 @@ const LogoScroller = () => {
       <div className="absolute top-0 right-0 w-32 h-full bg-gradient-to-l from-[#111418] to-transparent z-30" />
 
       {/* Highlight text at bottom */}
-      <div className="relative z-20 px-8 lg:px-24 mt-8 flex justify-center">
+      {/* <div className="relative z-20 px-8 lg:px-24 mt-8 flex justify-center">
         <p className="text-[#FF852A] italic font-light text-lg border-l-2 border-[#FF852A] pl-4 bg-gradient-to-r from-[#FF852A]/10 to-transparent py-2 max-w-xl">
           Delivering exceptional visual narratives for world-class brands
         </p>
-      </div>
+      </div> */}
     </section>
   );
 };

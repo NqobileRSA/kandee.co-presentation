@@ -46,7 +46,7 @@ const AboutUs = () => {
   }, []);
 
   return (
-    <section id="about-us" className="relative bg-black overflow-hidden">
+    <section id="about-us" className="relative bg-gradient-to-br from-[#111418] to-[#15191D] overflow-hidden">
       {/* Hero Video Section */}
       <div
         className="relative h-screen"

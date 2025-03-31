@@ -177,14 +177,14 @@ const OurMission = () => {
             <div className="absolute inset-0 bg-gradient-to-t from-[#343E48]/40 to-transparent opacity-60" />
           </motion.div>
 
-          <motion.img
+          {/* <motion.img
             src="/assets/img2.jpg"
             alt="Behind the scenes"
             className="absolute top-1/4 -left-12 w-2/5 border-[6px] border-[#343E48] rounded-lg hidden xl:block shadow-2xl object-cover"
             style={{ height: "300px" }}
             whileHover={{ scale: 1.05, rotate: 2 }}
             transition={{ duration: 0.5 }}
-          />
+          /> */}
 
           <motion.div
             initial={{ opacity: 0, scale: 0.8 }}
