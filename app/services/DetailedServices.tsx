@@ -289,7 +289,7 @@ const DetailedServices: React.FC = () => {
 
         <div className="grid lg:grid-cols-12 gap-8 relative">
           {/* Left Column - Service Selection - Make sticky on desktop */}
-          <div className={`lg:col-span-5 space-y-4 ${isStickyActive ? 'lg:sticky lg:top-8 lg:self-start lg:max-h-[calc(100vh-4rem)] lg:overflow-y-auto' : ''}`}>
+          <div className={`lg:col-span-5 space-y-4 ${isStickyActive ? 'lg:sticky lg:top-8 lg:self-start lg:max-h-[calc(100vh-4rem)] lg:overflow-y-hidden' : ''}`}>
             {services.map((service) => (
               <div
                 key={service.id}
